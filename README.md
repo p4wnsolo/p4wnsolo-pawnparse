@@ -6,8 +6,8 @@ Currently, p4wnparse is multiple Python scripts which each perform a specific lo
 
 Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
-### 1) p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
-### 2) p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
+### 1) ☎️ p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
+### 2) 🧑 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
 &nbsp;
 ## How it Works:
 - Give the corresponding script a Name / Phone number
@@ -30,7 +30,7 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 
 &nbsp;
 
-### 🚶 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
+### 🧑 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
 
 <code>python3 p4wnparse-name-clustrmaps.py Firstname Lastname</code>
 
