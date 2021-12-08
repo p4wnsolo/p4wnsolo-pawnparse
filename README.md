@@ -1,5 +1,6 @@
 # p4wnparse
-##OSINT tool to parse info from Public information directories
+
+OSINT tool to parse info from Public information directories
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used)
 
