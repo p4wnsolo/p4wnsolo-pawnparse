@@ -15,6 +15,12 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 - The info is displayed
 
 ## Usage:
+First, clone the p4wnparse Github repository:
+<code>git clone https://github.com/p4wnsolo/p4wnparse.git</code>
+Then change directories into /p4wnparse:
+<code>cd p4wnparse</code>
+
+Finally, run one of the example commands below:
 
 ### ☎️ p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
 
