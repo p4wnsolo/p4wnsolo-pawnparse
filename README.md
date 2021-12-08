@@ -14,4 +14,5 @@ Usage:
 
 ex:  
 To look up a person named "John Doe", use this command:
+
 <code>python3 p4wnparse-name-clustrmaps.py John Doe</code>
