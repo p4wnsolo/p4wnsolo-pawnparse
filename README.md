@@ -16,7 +16,7 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
 Usage:
 
-1) p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
+p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
 <code>python3 p4wnparse-phone-callprotect.py 10digitNumberGoesHere</code>
 
 ex:  
@@ -27,7 +27,7 @@ To look up a phone number 666-420-6969, use this command:
 Default phone number lookup points to "John Doe" (if no name is provided via Command Line, this name will be used)
 
 
-2) p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
+p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
 <code>python3 p4wnparse-name-clustrmaps.py Firstname Lastname</code>
 
 ex:  
