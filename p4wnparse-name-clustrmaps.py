@@ -24,8 +24,7 @@ try:
 except:
     theinput = 'Carole-Baskin'  # Set a random phone number if none is given
 
-print('Reverse Lookup starting for:')
-print(bcolors.WARNING + str(theinput) + '\n')
+print('Reverse Lookup starting..')
 
 # Set lookup URL
 url = 'https://clustrmaps.com/persons/'
@@ -33,7 +32,9 @@ url = url + str(theinput)
 
 # Initialize tags to get Name
 tag1 = '<h1 class="mb-3'
+tag1 = '<div class="hh1">Found <strong>'
 tag2 = '</h1>'
+tag2 = '</strong>&nbsp;results'
 
 # Initialize tags to get All other data
 tag3 = '<div class="mb-5"'
@@ -79,20 +80,26 @@ res5 = re.findall(reg_str5, str(response.content))
 
 # Print the results
 try:
-    print(bcolors.HEADER + "\n\nName:\n" + bcolors.WARNING + str(res[0]) + '\n')
+    print(bcolors.HEADER + "\n\nName:" + bcolors.WARNING + theinput)
+    print(bcolors.HEADER + "# Results:  " + bcolors.WARNING + str(res[0]))
     #print(response2.read())
 
     num = 0
 
     # Print results line by line
     for i in res2:
-        print('\n(' + str(num) + ')')  # Print the item number
+        ### Assign row colors
+        if (num % 2) == 0:
+            color = bcolors.OKGREEN
+        else:
+            color = bcolors.OKCYAN
         isplit = i.split('>')  # Split the string
         ########## Name
         name = isplit[5]  # Get the rough name string
         name = name.split('<')  # Split the name string
         name = name[0]  # Get just the name
-        print('Name:  ' + name + '')
+        print(color + '\n#' + str(num) + ':  ' + name)  # Print the item number
+        #print('Name:  ' + name + '')
         ########## Age
         try:
             age = isplit[8]  # Get the rough age string
@@ -144,13 +151,6 @@ try:
             print('Address:  ' + address + '')
         except:
             print('Address:  Unknown')
-        ### Assign row colors
-        if (num % 2) == 0:
-            print(bcolors.OKGREEN + i)
-            print(isplit)
-        else:
-            print(bcolors.OKCYAN + i + '\n')
-            print(isplit)
         ########## City
         try:  #replace with a different result set
             city = isplit[16]
@@ -162,7 +162,7 @@ try:
         #print(res5)
         #associates = associates.split('<')
         #associates = associates.split('>')
-        print(associates)
+        #print(associates)
         ##### Iteration
         num = num + 1
 
@@ -172,6 +172,6 @@ except:
     #print(str(response.status_code) + ' - ' + str(response2))
     # Print results all in one block
     print("\nRaw Data for Results 2:\n" + str(res2))
-print("\nRaw Data for Results 3:\n" + str(res3))
-print("\nRaw Data for Results 4:\n" + str(res4))
-print("\nRaw Data for Results 5:\n" + str(res5))
+    print("\nRaw Data for Results 3:\n" + str(res3))
+    print("\nRaw Data for Results 4:\n" + str(res4))
+    print("\nRaw Data for Results 5:\n" + str(res5))
