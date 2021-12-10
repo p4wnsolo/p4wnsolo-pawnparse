@@ -41,14 +41,14 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 ### 🧑 p4wnparse-name-radaris.py --- Name Lookup
 
 <code>python3 p4wnparse-name-clustrmaps.py Firstname Lastname</code>
-&nbsp;
+<br />
 <code>python3 p4wnparse-name-radaris.py Firstname Lastname</code>
 
 #### ex:  
 ##### To look up a person named "John Doe", use this command:
 
 <code>python3 p4wnparse-name-clustrmaps.py John Doe</code>
-&nbsp;
+<br />
 <code>python3 p4wnparse-name-radaris.py John Doe</code>
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
