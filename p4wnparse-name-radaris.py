@@ -46,6 +46,10 @@ age_tag_start = '<div class="age-wr'
 #tag4 = '</div>'
 age_tag_end = '</div>'
 
+# Initialize tags to get All other data
+aka_tag_start = 'Known as</p><div class="col scroll-mob"><p class="many-links">'
+aka_tag_end = '</p>'
+
 # Initialize tags to get Name
 tag5 = '<span itemprop="telephone"'
 tag6 = '</span'
@@ -75,6 +79,9 @@ res2 = re.findall(reg_str2, str(response.content))
 
 age_reg_string = age_tag_start + '(.*?)' + age_tag_end
 age_results = re.findall(age_reg_string, str(response.content))
+
+aka_reg_string = aka_tag_start + '(.*?)' + aka_tag_end
+aka_results = re.findall(aka_reg_string, str(response.content))
 
 #reg_str3 = tag5 + '(.*?)' + tag6
 #res3 = re.findall(reg_str3, str(response.content))
@@ -119,6 +126,7 @@ try:
         age_raw = age_raw.split('>')
         age_raw = age_raw[1]
         print('Age = ' + str(age_raw))
+        print('Also known as: ' + aka_results[num])
         #print('Name:  ' + name + '')
         ########## Age
         #try:
@@ -198,3 +206,4 @@ print("\nRaw Data for Results 2:\n" + str(res))
 print("\nRaw Data for Name Results :\n" + str(res2))
 print("\nRaw Data for Age Results :\n" + str(age_results))
 print("\nAge_raw: " + str(age_raw))
+print("\nAka_raw: " + str(aka_results))
