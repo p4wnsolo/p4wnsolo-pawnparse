@@ -1,0 +1,4 @@
+1.  Grab all the items
+2.  In the loop, for each item, search for field 1 by 1
+3.  If a value is found, populate the output list with the value
+4.  If the value is not found, populate with "?"
