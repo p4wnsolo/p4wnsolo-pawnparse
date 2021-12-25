@@ -2,6 +2,10 @@
 
 P4wnparse is an OSINT tool to parse info from Public information directories.
 
+![Usage screenshot](/images/p4wnparse-usage.PNG "Usage screenshot")
+
+![Example screenshot](/images/p4wnparse-example.PNG "Example screenshot")
+
 Currently, p4wnparse uses several scripts to perform specific lookup tasks.
 
 Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
