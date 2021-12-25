@@ -57,8 +57,8 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 
 ##### To look up a person named "John Doe", use this command:
 
-`python3 p4wnparse-name-**clustrmaps**.py John Doe`
+`python3 p4wnparse-name-clustrmaps.py John Doe`
 
-`python3 p4wnparse-name-**radaris**.py John Doe`
+`python3 p4wnparse-name-radaris.py John Doe`
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
