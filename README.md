@@ -28,9 +28,9 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
 First, clone the p4wnparse Github repository:
 
-`git clone https://github.com/p4wnsolo/p4wnparse.git`
+`git clone https://github.com/p4wnsolo/p4wnsolo-pawnparse.git`
 
-Then change directories into /p4wnparse:
+Then change directories into /p4wnsolo-pawnparse:
 
 `cd p4wnparse`
 
