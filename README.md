@@ -42,7 +42,7 @@ Finally, run one of the example commands below:
 
 To look up a phone number 666-420-6969, use this command:
 
-`python3 p4wnparse-name-clustrmaps.py 6664206969`
+`python3 p4wnparse-phone-callprotect.py 6664206969`
 
 Default phone number lookup points to "John Doe" (if no name is provided via Command Line, this name will be used)
 
