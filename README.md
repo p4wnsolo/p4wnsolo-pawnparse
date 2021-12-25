@@ -14,9 +14,11 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
 1. ☎️ p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
 
-2. 🧑 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
+2. 🧑 p4wnparse-name-clustrmaps.py --- Name Lookup (Name-to-other-info (Age, etc)
 
-3. 🧑 p4wnparse-name-radaris.py --- Give it a Name, it'll give you their Info (Age, etc)
+3. 🧑 p4wnparse-name-radaris.py --- Name Lookup
+
+4. 🧑 p4wnparse-name-searchpeoplefree.py --- Name Lookup
 
 ## How it Works:
 
@@ -69,5 +71,19 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 To look up a person named "John Doe", use this command:
 
 `python3 p4wnparse-name-radaris.py John Doe`
+
+Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
+
+### 🧑 p4wnparse-name-searchpeoplefree.py --- Name Lookup
+
+**Currently not working, but functions as a demo**
+
+`python3 p4wnparse-name-searchpeoplefree.py Firstname Lastname`
+
+*Example:*
+
+To look up a person named "John Doe", use this command:
+
+`python3 p4wnparse-name-searchpeoplefree.py John Doe`
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
