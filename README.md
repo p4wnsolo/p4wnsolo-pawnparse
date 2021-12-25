@@ -20,9 +20,9 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
 - Give the corresponding script a Name / Phone number
 
-- The script gets and scrapes a website
+- The script fetches and scrapes a website
 
-- The info is displayed
+- The results are displayed
 
 ## Install:
 
