@@ -21,6 +21,7 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 - The info is displayed
 
 ## Install:
+
 First, clone the p4wnparse Github repository:
 
 `git clone https://github.com/p4wnsolo/p4wnparse.git`
@@ -37,9 +38,9 @@ Finally, run one of the example commands below:
 
 `python3 p4wnparse-phone-callprotect.py 10digitNumberGoesHere`
 
-#### ex:  
+*For example:*
 
-##### To look up a phone number 666-420-6969, use this command:
+To look up a phone number 666-420-6969, use this command:
 
 `python3 p4wnparse-name-clustrmaps.py 6664206969`
 
@@ -49,15 +50,17 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 
 `python3 p4wnparse-name-clustrmaps.py Firstname Lastname`
 
+*Example:*
+
+`python3 p4wnparse-name-clustrmaps.py John Doe`
+
 ### 🧑 p4wnparse-name-radaris.py --- Name Lookup
 
 `python3 p4wnparse-name-radaris.py Firstname Lastname`
 
-#### ex:  
+*Example:*
 
-##### To look up a person named "John Doe", use this command:
-
-`python3 p4wnparse-name-clustrmaps.py John Doe`
+To look up a person named "John Doe", use this command:
 
 `python3 p4wnparse-name-radaris.py John Doe`
 
