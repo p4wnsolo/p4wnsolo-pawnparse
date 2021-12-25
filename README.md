@@ -6,49 +6,57 @@ Currently, p4wnparse is multiple Python scripts which each perform a specific lo
 
 Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
-### 1) ☎️ p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
-### 2) 🧑 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
-### 3) 🧑 p4wnparse-name-radaris.py --- Give it a Name, it'll give you their Info (Age, etc)
-&nbsp;
+1. ☎️ p4wnparse-phone-callprotect.py --- Give it a Phone Number, it'll give you their Name
+
+2. 🧑 p4wnparse-name-clustrmaps.py --- Give it a Name, it'll give you their Info (Age, etc)
+
+3. 🧑 p4wnparse-name-radaris.py --- Give it a Name, it'll give you their Info (Age, etc)
+
 ## How it Works:
+
 - Give the corresponding script a Name / Phone number
+
 - The script gets and scrapes a website
+
 - The info is displayed
 
 ## Usage:
 First, clone the p4wnparse Github repository:
-<code>git clone https://github.com/p4wnsolo/p4wnparse.git</code>
+
+`git clone https://github.com/p4wnsolo/p4wnparse.git`
+
 Then change directories into /p4wnparse:
-<code>cd p4wnparse</code>
+
+`cd p4wnparse`
 
 Finally, run one of the example commands below:
 
 ### ☎️ p4wnparse-phone-callprotect.py --- Phone to Name Lookup (Reverse Lookup)
 
-<code>python3 p4wnparse-phone-callprotect.py 10digitNumberGoesHere</code>
+`python3 p4wnparse-phone-callprotect.py 10digitNumberGoesHere`
 
 #### ex:  
 
 ##### To look up a phone number 666-420-6969, use this command:
 
-<code>python3 p4wnparse-name-clustrmaps.py 6664206969</code>
+`python3 p4wnparse-name-clustrmaps.py 6664206969`
 
 Default phone number lookup points to "John Doe" (if no name is provided via Command Line, this name will be used)
 
-&nbsp;
-
 ### 🧑 p4wnparse-name-clustrmaps.py --- Name Lookup
+
 ### 🧑 p4wnparse-name-radaris.py --- Name Lookup
 
-<code>python3 p4wnparse-name-clustrmaps.py Firstname Lastname</code>
-<br />
-<code>python3 p4wnparse-name-radaris.py Firstname Lastname</code>
+`python3 p4wnparse-name-clustrmaps.py Firstname Lastname`
+
+`python3 p4wnparse-name-radaris.py Firstname Lastname`
 
 #### ex:  
+
 ##### To look up a person named "John Doe", use this command:
 
-<code>python3 p4wnparse-name-clustrmaps.py John Doe</code>
-<br />
-<code>python3 p4wnparse-name-radaris.py John Doe</code>
+`python3 p4wnparse-name-clustrmaps.py John Doe`
+
+`python3 p4wnparse-name-radaris.py John Doe`
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
