@@ -2,6 +2,8 @@
 
 P4wnparse is an OSINT tool to parse info from Public information directories.
 
+**UPDATE Dec 25 '21:**  Tested p4wnparse-name-clustrmaps.py.  Result: *"mostly"*-functional
+
 ![Usage screenshot](/images/p4wnparse-usage.PNG "Usage screenshot")
 
 ![Example screenshot](/images/p4wnparse-example.PNG "Example screenshot")
