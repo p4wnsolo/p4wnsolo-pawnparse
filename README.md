@@ -32,7 +32,7 @@ First, clone the p4wnparse Github repository:
 
 Then change directories into /p4wnsolo-pawnparse:
 
-`cd p4wnparse`
+`cd p4wnsolo-pawnparse`
 
 Finally, run one of the example commands below:
 
