@@ -2,7 +2,7 @@
 
 P4wnparse is an OSINT tool to parse info from Public information directories.
 
-Currently, p4wnparse is multiple Python scripts which each perform a specific lookup task.
+Currently, p4wnparse uses several scripts to perform specific lookup tasks.
 
 Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
@@ -20,7 +20,7 @@ Here are the scripts currently in p4wnparse (as of Dec 8, 2021):
 
 - The info is displayed
 
-## Usage:
+## Install:
 First, clone the p4wnparse Github repository:
 
 `git clone https://github.com/p4wnsolo/p4wnparse.git`
@@ -30,6 +30,8 @@ Then change directories into /p4wnparse:
 `cd p4wnparse`
 
 Finally, run one of the example commands below:
+
+## Usage:
 
 ### ☎️ p4wnparse-phone-callprotect.py --- Phone to Name Lookup (Reverse Lookup)
 
@@ -45,9 +47,9 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 
 ### 🧑 p4wnparse-name-clustrmaps.py --- Name Lookup
 
-### 🧑 p4wnparse-name-radaris.py --- Name Lookup
-
 `python3 p4wnparse-name-clustrmaps.py Firstname Lastname`
+
+### 🧑 p4wnparse-name-radaris.py --- Name Lookup
 
 `python3 p4wnparse-name-radaris.py Firstname Lastname`
 
@@ -55,8 +57,8 @@ Default phone number lookup points to "John Doe" (if no name is provided via Com
 
 ##### To look up a person named "John Doe", use this command:
 
-`python3 p4wnparse-name-clustrmaps.py John Doe`
+`python3 p4wnparse-name-**clustrmaps**.py John Doe`
 
-`python3 p4wnparse-name-radaris.py John Doe`
+`python3 p4wnparse-name-**radaris**.py John Doe`
 
 Default name lookup is "Carole Baskin" (if no name is provided via Command Line, this name will be used) 
